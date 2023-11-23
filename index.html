@@ -11,11 +11,59 @@
     <body>
        <a-scene id="scene">
         <a-entity position="0 1 0" spe-particles="
-        color: black, blue, cyan, red, antiqueblue, orange;
+        color: black, blue, cyan, antiqueblue, orange;
         distribution: sphere;
         randomize-velocity: true;
         radius: 1;
-        particle-count: 800;
+        particle-count: 1200;
+        velocity: 1;
+        velocity-spread: 15;
+        drag: 1;
+        max-age: 2;
+        duration: -1;
+        blending: additive;
+        active-multiplier: 1000;
+        size: 1, 1, 1, 0">
+        </a-entity> 
+
+        <a-entity position="10 5 0" spe-particles="
+        color: red, yellow, green;
+        distribution: sphere;
+        randomize-velocity: true;
+        radius: 1;
+        particle-count: 1200;
+        velocity: 1;
+        velocity-spread: 15;
+        drag: 1;
+        max-age: 2;
+        duration: -1;
+        blending: additive;
+        active-multiplier: 1000;
+        size: 1, 1, 1, 0">
+        </a-entity> 
+
+        <a-entity position="5 7 0" spe-particles="
+        color: pink, darkblue;
+        distribution: sphere;
+        randomize-velocity: true;
+        radius: 1;
+        particle-count: 1200;
+        velocity: 1;
+        velocity-spread: 15;
+        drag: 1;
+        max-age: 2;
+        duration: -1;
+        blending: additive;
+        active-multiplier: 1000;
+        size: 1, 1, 1, 0">
+        </a-entity> 
+
+        <a-entity position="-8 4 0" spe-particles="
+        color: lime, lightseagreen, pink, darkblue, black;
+        distribution: sphere;
+        randomize-velocity: true;
+        radius: 1;
+        particle-count: 1200;
         velocity: 1;
         velocity-spread: 15;
         drag: 1;
